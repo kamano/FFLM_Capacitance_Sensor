@@ -32,7 +32,7 @@ void setup()
 void loop() 
 {
 
-  FDC.configureMeasurementSingle(MEASURMENT, channel, capdac);      
+  FDC.configureMeasurementSingle(MEASURMENT, CHANNEL, capdac);      
   FDC.triggerSingleMeasurement(MEASURMENT, FDC1004_400HZ);
   
   //wait for completion
